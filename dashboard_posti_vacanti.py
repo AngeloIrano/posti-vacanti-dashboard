@@ -23,7 +23,7 @@ df["Indice Excelsior (/1000)"] = df["Posti vacanti Excelsior"] / df["Posizioni l
 st.title("Dashboard Posti Vacanti - Q1 2025")
 st.subheader("Confronto ISTAT vs Excelsior")
 
-st.dataframe(df.style.format("{:.1f}"))
+st.dataframe(df)
 
 # Grafico comparativo
 st.subheader("Grafico comparativo dei posti vacanti")
